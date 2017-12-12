@@ -62,4 +62,8 @@ ext {
 
     //arouter
     arouterVersion="1.2.2"
+    arouterProcessorVersion = "1.1.3"
+
+    //appcompat
+    appcompatV7Version="27.0.2"
 }

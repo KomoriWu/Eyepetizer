@@ -1,4 +1,4 @@
-package com.example.base;
+package com.komori.base;
 
 import org.junit.Test;
 
