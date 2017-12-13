@@ -34,8 +34,8 @@ dependencies {
     implementation "org.jetbrains.anko:anko:$rootProject.ext.ankoVersion"
 
     //dagger2
-    implementation "com.google.dagger:dagger-android:$rootProject.ext.dagger2Version"
-    implementation "com.google.dagger:dagger-android-support:$rootProject.ext.dagger2Version"
+    compile "com.google.dagger:dagger-android:$rootProject.ext.dagger2Version"
+    compile "com.google.dagger:dagger-android-support:$rootProject.ext.dagger2Version"
     kapt "com.google.dagger:dagger-android-processor:$rootProject.ext.dagger2Version"
     kapt "com.google.dagger:dagger-compiler:$rootProject.ext.dagger2Version"
 
@@ -57,7 +57,7 @@ dependencies {
     compile "net.opacapp:multiline-collapsingtoolbar:$rootProject.ext.collapsingtoolbarVersion"
 
     //log
-    implementation "com.orhanobut:logger:$rootProject.ext.loggerVersion"
+    compile "com.orhanobut:logger:$rootProject.ext.loggerVersion"
 
     //tab
     compile "com.ogaclejapan.smarttablayout:library:$rootProject.ext.smarttabVersion"
